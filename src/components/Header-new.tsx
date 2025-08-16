@@ -6,7 +6,7 @@ import ThemeToggle from "./ThemeToggle";
 import {
   HomeIcon,
   PlusIcon,
-  //UserIcon,
+  UserIcon,
   BookmarkIcon,
   ClockIcon,
   Bars3Icon,
@@ -21,8 +21,7 @@ export default function Header() {
     { name: "Create", href: "/create", icon: PlusIcon },
     { name: "History", href: "/history", icon: ClockIcon },
     { name: "Bookmarks", href: "/bookmarks", icon: BookmarkIcon },
-    // Profile page temporarily disabled - kept in _profile directory for future use
-    // { name: "Profile", href: "/profile", icon: UserIcon },
+    { name: "Profile", href: "/profile", icon: UserIcon },
   ];
 
   return (

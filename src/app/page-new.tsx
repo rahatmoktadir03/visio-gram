@@ -96,7 +96,7 @@ export default function HomePage() {
             <div className="relative max-w-4xl mx-auto">
               <div className="relative aspect-video bg-gradient-to-r from-purple-400 to-pink-400 rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="https://picsum.photos/800/450?random=1"
+                  src="https://picsum.photos/800/450?random=2"
                   alt="AI Art Demo"
                   fill
                   className="object-cover opacity-80"
@@ -190,7 +190,7 @@ export default function HomePage() {
                 className="aspect-square bg-gradient-to-br from-purple-100 to-pink-100 dark:from-gray-800 dark:to-gray-700 rounded-lg overflow-hidden"
               >
                 <Image
-                  src={`https://picsum.photos/300/300?random=${i + 10}`}
+                  src={`https://picsum.photos/300/300?random=${i + 20}`}
                   alt={`Sample artwork ${i}`}
                   width={300}
                   height={300}

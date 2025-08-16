@@ -1,7 +1,6 @@
 import modal
 import io
 import base64
-from PIL import Image
 
 # Create the Modal app
 app = modal.App("visio-gram")
@@ -27,6 +26,7 @@ def generate_image(prompt: str):
     """Generate an image from a text prompt using Stable Diffusion"""
     import torch
     from diffusers import StableDiffusionPipeline
+    from PIL import Image
     
     # Load the model
     pipe = StableDiffusionPipeline.from_pretrained(
